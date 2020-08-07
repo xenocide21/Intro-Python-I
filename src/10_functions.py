@@ -10,3 +10,12 @@ num = int(num)
 
 # YOUR CODE HERE
 
+
+def check_even_or_idd(num):
+    if num% 2 == 0:
+        return f'Number: {num} is even!'
+    else:
+        return f'Number: {num} is odd!'
+
+
+print (check_even_or_idd(num))
